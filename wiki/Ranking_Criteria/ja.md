@@ -13,7 +13,7 @@ Glossary
 
 ### General Terms
 
-- **Rules:** All rules are exactly that: **rules**. They are **not** guidelines and may **not** be broken under **any** circumstance.
+- **Rules:** すべてのルールは、いついかなる状況でも破られてはいけないし、ガイドラインでもない。<!-- All rules are exactly that: **rules**. They are **not** guidelines and may **not** be broken under **any** circumstance. -->
 - **Guidelines:** Guidelines may be violated under **exceptional** circumstances. These exceptional circumstances must be warranted by an exhaustive explanation as of why the guideline has been violated and why not violating it will interfere with the overall quality of the creation.
 
 ### Beatmapset
@@ -23,11 +23,11 @@ Glossary
 - **Play time**: The time during which the health-bar drains combined with break periods.
 - **Reasonable spread:** A beatmapset that does not skip any difficulty levels as dictated by difficulty-specific rules and guidelines, starting from the lowest difficulty level required for the song's length, and does not have any drastically large differences between difficulties. This includes beatmapsets that feature only a single difficulty.
 - **Game mode:** osu!, osu!taiko, osu!catch, and each of osu!mania's key counts are considered individual game modes.
-- **Single-mode beatmapset:** A beatmapset which contains difficulties of only one game mode.
-- **Hybrid beatmapset:** A beatmapset which contains difficulties of multiple game modes.
-- **Beatmapset host:** A user who uploads and manages a beatmapset.
-- **Guest difficulty:** A difficulty added to a beatmapset which is not created by its beatmapset host.
-- **Collaborative difficulty:** A single difficulty beatmapped by more than one creator. Also referred to as "collab".
+- **Single-mode beatmapset:** 一つのゲームモードに対応しているbeatmapset。<!--A beatmapset which contains difficulties of only one game mode. -->
+- **Hybrid beatmapset:** 複数のゲームモードに対応したbeatmapset。<!-- A beatmapset which contains difficulties of multiple game modes. -->
+- **Beatmapset host:** Beatmapsetをアップロードして、管理しているユーザー。<!--A user who uploads and manages a beatmapset.-->
+- **Guest difficulty:** Beatmapset host以外のユーザーが制作したdifficulty。<!-- A difficulty added to a beatmapset which is not created by its beatmapset host. -->
+- **Collaborative difficulty:** 2人以上で制作されたbeatmap。<!-- A single difficulty beatmapped by more than one creator. Also referred to as "collab". -->
 
 ### Metadata
 
@@ -35,20 +35,20 @@ Glossary
 - **vs.**: versus
 - **feat.**: featuring
 - **CV**: character voice, usually used to refer to the voice actor of a fictional character.
-- **Asterisk**: `*`
-- **Umlauts**: `ü`, `ö`, `ä` and `ß`
-- **Whitespace**: A visual spacing between characters, not always a literal space. Full-width characters do not require whitespaces.
+- **アスタリスク**: `*`
+- **ウムラウト**: `ü`, `ö`, `ä` と `ß`
+- **ホワイトスペース**: <!-- A visual spacing between characters -->見える文字の区切りの文字であり、Literalなスペースだけとは限らない。 <!--not always a literal space.-->全角の文字はこれを必要としない。<!-- Full-width characters do not require whitespaces. -->
 - **TV Size**: A song where the particular version is used in a television program, web series, or direct-to-video series, such as an opening, ending, or insert song. Fan-made works are not included in this.
 - **Modified Hepburn Romanisation**: Refer to [this page](https://en.wikipedia.org/wiki/Hepburn_romanization#Features) for information.
-- **Character-by-character romanisation**: Each Chinese character must be Romanised as a capitalised word and separated with a space.
+- **一文字ごとのローマ字化**: 中国語の文字は文字ごとに大文字で始まり、スペースで区切られたローマ字に変換されなければならない。<!-- Each Chinese character must be Romanised as a capitalised word and separated with a space. -->
 
 ### Timing
 
-- **BPM:** An acronym for `beats per minute` used to determine the tempo of a song.
-- **Offset:** The millisecond position when a timing point's BPM correlates to a song.
+- **BPM:** `beats per minute`の頭字語。これは曲のテンポを意味する。
+- **Offset:** BPMが適用されるTiming pointを示すミリ秒。 <!-- The millisecond position when a timing point's BPM correlates to a song. -->
 - **Uninherited timing point:** A point used to change a beatmap's BPM, offset, or time signature. Indicated by a red line in the editor and informally called a `red line`.
 - **Inherited timing point:** A point that inherits elements from the previous timing point, and is not used to modify a beatmap's timing. Indicated by a green line in the editor and informally called a `green line`.
-- **Single-BPM timing:** Timing which only requires one BPM.
+- **Single-BPM timing:** 一つのBPMのTiming。
 - **Multi-BPM timing:** Timing which changes BPM according to a song's composition without irregularity due to a song's fluctuation.
 - **Variable-BPM timing:** Timing which changes BPM irregularly due to a song's fluctuations.
 
@@ -66,7 +66,7 @@ Glossary
 - **User-specific:** A user's personal skin which they set in their options menu.
 - **Beatmap-specific:** Consists of skin elements located in the beatmap folder.
 
-### Storyboarding
+### Storyboard
 
 - **Storyboard image:** This refers to the image in the song folder that the storyboard uses.
 - **Sprite:** An object in a storyboard representing an image, or a series of images.
@@ -82,10 +82,10 @@ Glossary
 
 ### Rules
 
-- **No two hit objects can be placed on the same tick.** This includes hit circles, starts and ends of sliders, and starts and ends of spinners. osu!mania beatmaps are exempt from this.
+- **同じtickに2つ以上のobjectを置くことはできない。** This includes hit circles, starts and ends of sliders, and starts and ends of spinners. osu!mania beatmaps are exempt from this.
 - **There must not be any obscene imagery in the background/storyboard/video content.** This includes nudity, near-nudity, sexual references, violence, drug abuse, etc. Keep things PG (suitable for ages 12+). Images should be on a level that can be displayed on all-audience TV, on public signage, and of nature that does not require censoring in any country.
 - **Beatmaps that contain repetitive strobes, pulsing images, or rapid changes in contrast, brightness or colour in the storyboard or video must use an epilepsy warning.** If the warning interferes with gameplay, audio lead-in must be made longer. Strobing effects at 3 Hz and below are unlikely to cause concern. When in doubt, add the warning and confirm its necessity during the modding process.
-- **There must not be any unused files or 0-byte files in the beatmap's folder.** 0-byte files prevent other files in a beatmap's folder from properly uploading. Automatically generated `thumbs.db` files are the only exceptions.
+- **使われていないファイルや0バイトのファイルは含めることができない。** 0バイトのファイルは prevent other files in a beatmap's folder from properly uploading. 自動的に生成される`thumbs.db`は唯一の例外である。<!-- **There must not be any unused files or 0-byte files in the beatmap's folder.** 0-byte files prevent other files in a beatmap's folder from properly uploading. Automatically generated `thumbs.db` files are the only exceptions. -->
 - **Do not edit the `.osu` file to modify difficulty settings or insert break times in ways that are unintended for each respective game mode.** Other `.osu` file edits such as stack leniency, slider velocity, and skinning settings are acceptable.
 - **osu! difficulties must convert to other game modes without breaking star rating/performance points.** In certain cases, a `.osu` file can be formatted improperly, causing converted difficulties to incorrectly display star rating and reward inaccurate performance points.
 
@@ -95,7 +95,7 @@ Glossary
 - **Directly re-using your own Ranked beatmaps in other Ranked beatmaps is discouraged.** This is to avoid unnecessary bloating of Ranked content.
 - **Slider tick rate should not be modified through the `.osu` file.** Most custom values result in unsnapped slider ticks, however tick rates 0.5, 1.333, and 1.5 have practical use and can be applied only when they fit a song more appropriately than standard tick rates.
 - **Kiai should start on a sound in the music.** Doing so otherwise causes the kiai flash to feel unrelated to the song.
-- **Maps should not surpass a score of 2.147 billion with any mod combination or game mode conversion.** Scores are not calculated properly past this value. If the score limit is not reasonably achievable however (e.g. a HDHRDTFL SS play on a six star beatmap), it may be Ranked.
+- **スコアが21億4700万をいかなるModの組み合わせやゲームモードでも超えてはいけない。** スコアが正しく計算されないためである。もし常識的に考えてありえない手法で(例:HDHRDTFLをつけて、6starのbeatmapでSSを取る)限界を超えてしまう場合は、<!-- WIP: 不自然なつなぎ -->Rankedになるだろう。<!-- **Maps should not surpass a score of 2.147 billion with any mod combination or game mode conversion.** Scores are not calculated properly past this value. If the score limit is not reasonably achievable however (e.g. a HDHRDTFL SS play on a six star beatmap), it may be Ranked. -->
 
 ## Beatmapset
 
